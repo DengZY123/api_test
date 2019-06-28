@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="307392c8-9af0-48e9-a39b-685cb6c2f63a" name="Default" comment="" />
+    <list default="true" id="307392c8-9af0-48e9-a39b-685cb6c2f63a" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +74,7 @@
         <entry file="file://$PROJECT_DIR$/log/log_20190628.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="66">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -81,7 +83,7 @@
         <entry file="file://$PROJECT_DIR$/test/demo.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="337">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
               <folding>
                 <element signature="e#1133#1148#0" expanded="true" />
               </folding>
@@ -115,6 +117,9 @@
       <find>print</find>
       <find>pytest</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -150,11 +155,12 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1578" />
-    <option name="y" value="114" />
-    <option name="width" value="1493" />
-    <option name="height" value="813" />
+    <option name="x" value="1769" />
+    <option name="y" value="31" />
+    <option name="width" value="1700" />
+    <option name="height" value="1010" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -211,6 +217,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -371,7 +378,7 @@
       <workItem from="1561449381341" duration="373000" />
       <workItem from="1561627670312" duration="201000" />
       <workItem from="1561686414412" duration="11233000" />
-      <workItem from="1561705327316" duration="6487000" />
+      <workItem from="1561705327316" duration="6783000" />
     </task>
     <servers />
   </component>
@@ -399,7 +406,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26897000" />
+    <option name="totallyTimeSpent" value="27193000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -411,9 +418,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1578" y="114" width="1493" height="813" extended-state="0" />
+    <frame x="1769" y="31" width="1700" height="1010" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.34752268" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30365855" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -423,8 +430,8 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32874355" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.27936962" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.5620112" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32930514" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
@@ -594,7 +601,7 @@
     <entry file="file://$PROJECT_DIR$/test/demo.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="337">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
           <folding>
             <element signature="e#1133#1148#0" expanded="true" />
           </folding>
@@ -604,7 +611,7 @@
     <entry file="file://$PROJECT_DIR$/log/log_20190628.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
