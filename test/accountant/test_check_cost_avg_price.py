@@ -21,12 +21,11 @@ class TestCheckPrice(BaseCase):
         cls.data_list = excel_to_list(os.path.join(data_path, "test_user_data.xlsx"), "TestUserReg")  # 读取TestUserReg工作簿的所有数据
         # cls.data_list 同 self.data_list 都是该类的公共属性
 """
-    @classmethod
+
     def test_check_cost_price(self):
 
-
-
         case_data = get_test_data(self.data_list, 'test_accountant_price')  # 从数据列表中查找到该用例数据
+        log_info("case_data", type(case_data))
         self.send_request(case_data)
         """
         case_data = get_test_data(self.data_list, 'test_accountant_price')   # 从数据列表中查找到该用例数据

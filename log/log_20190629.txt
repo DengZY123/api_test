@@ -1,7 +1,7 @@
-[2019-06-29 17:06:50] INFO [<module>: run_all.py, 6] ================================== 测试开始 ==================================
-[2019-06-29 17:06:50] INFO [<module>: run_all.py, 11] aaaa:/Users/edz/Desktop/api_test/test
-[2019-06-29 17:06:50] INFO [log_info: case_log.py, 18] 测试用例：123
-[2019-06-29 17:06:50] INFO [log_info: case_log.py, 19] 报出的信息：123
-[2019-06-29 17:06:50] INFO [log_info: case_log.py, 18] 测试用例：123
-[2019-06-29 17:06:50] INFO [log_info: case_log.py, 19] 报出的信息：123
-[2019-06-29 17:06:50] INFO [<module>: run_all.py, 18] ================================== 测试结束 ==================================
+[2019-06-29 18:09:02] INFO [<module>: run_all.py, 6] ================================== 测试开始 ==================================
+[2019-06-29 18:09:02] INFO [log_info: case_log.py, 18] 测试用例：case_data
+[2019-06-29 18:09:02] INFO [log_info: case_log.py, 19] 报出的信息：<class 'dict'>
+[2019-06-29 18:09:02] DEBUG [_new_conn: connectionpool.py, 823] Starting new HTTPS connection (1): pf.senguo.cc:443
+[2019-06-29 18:09:02] DEBUG [_make_request: connectionpool.py, 393] https://pf.senguo.cc:443 "POST /accountant/home HTTP/1.1" 200 490
+[2019-06-29 18:09:02] INFO [send_request: BaseCase.py, 55] 
+[2019-06-29 18:09:02] INFO [<module>: run_all.py, 18] ================================== 测试结束 ==================================
