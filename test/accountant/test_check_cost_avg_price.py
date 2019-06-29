@@ -15,16 +15,17 @@ class TestCheckPrice(BaseCase):
     def test_check_cost_price(self):
         case_data = get_test_data(self.data_list, 'test_accountant_price')  # 从数据列表中查找到该用例数据
         self.send_request(case_data)
-"""
-    @classmethod
+
+
     def setUpClass(cls):   # 整个测试类只执行一次
         cls.data_list = excel_to_list(os.path.join(data_path, "test_user_data.xlsx"), "TestUserReg")  # 读取TestUserReg工作簿的所有数据
         # cls.data_list 同 self.data_list 都是该类的公共属性
-
+"""
+    @classmethod
     def test_check_cost_price(self):
-        log_info("ddd", "123")
-        """
-        log_info("ddd","123")
+
+
+
         case_data = get_test_data(self.data_list, 'test_accountant_price')  # 从数据列表中查找到该用例数据
         self.send_request(case_data)
         """
@@ -53,7 +54,7 @@ class TestCheckPrice(BaseCase):
         log_case_info('test_accountant_cost_avg_price', url, data, expect_res, res.text,result)
         self.assertEqual(reponse_text, expect_res)  # 断言
 
-
+ """
 
 
 
