@@ -11,7 +11,7 @@ import operator
 from test.case.BaseCase import BaseCase
 
 class TestCheckPrice(BaseCase):
-
+    """
     def test_check_cost_price(self):
         case_data = get_test_data(self.data_list, 'test_accountant_price')  # 从数据列表中查找到该用例数据
         self.send_request(case_data)
@@ -22,6 +22,12 @@ class TestCheckPrice(BaseCase):
         # cls.data_list 同 self.data_list 都是该类的公共属性
 
     def test_check_cost_price(self):
+        log_info("ddd", "123")
+        """
+        log_info("ddd","123")
+        case_data = get_test_data(self.data_list, 'test_accountant_price')  # 从数据列表中查找到该用例数据
+        self.send_request(case_data)
+        """
         case_data = get_test_data(self.data_list, 'test_accountant_price')   # 从数据列表中查找到该用例数据
         if not case_data:   # 有可能为None
             logging.error("用例数据不存在")
@@ -47,7 +53,7 @@ class TestCheckPrice(BaseCase):
         log_case_info('test_accountant_cost_avg_price', url, data, expect_res, res.text,result)
         self.assertEqual(reponse_text, expect_res)  # 断言
 
-  """
+
 
 
 
