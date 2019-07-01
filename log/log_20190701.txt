@@ -1,0 +1,12 @@
+[2019-07-01 09:38:55] INFO [<module>: run_all.py, 6] ================================== 测试开始 ==================================
+[2019-07-01 09:38:56] INFO [log_info: case_log.py, 18] 测试用例：case_data
+[2019-07-01 09:38:56] INFO [log_info: case_log.py, 19] 报出的信息：<class 'dict'>
+[2019-07-01 09:38:56] DEBUG [_new_conn: connectionpool.py, 823] Starting new HTTPS connection (1): pf.senguo.cc:443
+[2019-07-01 09:38:56] DEBUG [_make_request: connectionpool.py, 393] https://pf.senguo.cc:443 "POST /boss/goods/stock/allot HTTP/1.1" 200 95
+[2019-07-01 09:38:56] INFO [log_case_info: case_log.py, 10] 测试用例：test_accountant_cost_avg_price
+[2019-07-01 09:38:56] INFO [log_case_info: case_log.py, 11] url：https://pf.senguo.cc/boss/goods/stock/allot
+[2019-07-01 09:38:56] INFO [log_case_info: case_log.py, 12] 请求参数：{"action": "get_storage_allocate_nofify_info", "_xsrf": "2|ee1afba2|092c5ee6823545c9bdd7c349f60f0415|1560909123"}
+[2019-07-01 09:38:56] INFO [log_case_info: case_log.py, 13] 期望结果：{'success': True, 'notify_dict': {'allocate_out_num': 0, 'allocate_in_num': 0, 'if_notify': 0}}
+[2019-07-01 09:38:56] INFO [log_case_info: case_log.py, 14] 实际结果：{'notify_dict': {'allocate_out_num': 0, 'if_notify': 0, 'allocate_in_num': 0}, 'success': True}
+[2019-07-01 09:38:56] INFO [log_case_info: case_log.py, 15] 测试结果：测试通过
+[2019-07-01 09:38:56] INFO [<module>: run_all.py, 18] ================================== 测试结束 ==================================
